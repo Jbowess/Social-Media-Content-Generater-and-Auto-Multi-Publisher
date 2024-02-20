@@ -10,7 +10,7 @@ username = ""
 password = ""
 
 # Create a Chrome WebDriver instance with the specified service and options
-chrome_service = Service(r'C:\Users\61412\Documents\Business\Management\AIStrategy\Software\instagram-auto-create-account-master\instagram-auto-create-account-master\chromedriver.exe')
+chrome_service = Service(r'C:\chromedriver.exe')
 
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument('--disable-extensions')
